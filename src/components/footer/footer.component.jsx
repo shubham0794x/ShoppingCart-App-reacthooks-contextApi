@@ -38,3 +38,20 @@ const QuickLinks = () => (
   </React.Fragment>
 );
 
+const About = () => (
+  <div className="about">
+    React E-Store is a web app developed with React Hooks and the Context API 
+  </div>
+);
+
+const DeveloperContact = () => (
+  <React.Fragment>
+    <span className="option">Shubham Bhadani</span>
+    <address className="option">
+      <a href="mailto:"></a>
+    </address>
+   
+  </React.Fragment>
+);
+
+export default Footer;
