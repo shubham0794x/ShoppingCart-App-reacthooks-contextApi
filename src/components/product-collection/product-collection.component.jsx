@@ -9,7 +9,9 @@ const ProductCollection = () => (
   <div className="collections-overview">
     <Grid container spacing={2}>
       {SHOP_DATA.map((item) => (
-        
+        <Grid key={item.id} xs={6} sm={4} md={3} lg={3} item>
+          <ProductItem item={item} />
+        </Grid>
       ))}
     </Grid>
   </div>
