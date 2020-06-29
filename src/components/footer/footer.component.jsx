@@ -15,6 +15,15 @@ const Footer = () => {
           <QuickLinks />
         </div>
 
-        
+        <div className="options">
+          <div className="heading">Contact Developer</div>
+          <DeveloperContact />
+        </div>
+      </div>
+      <div className="cp-signature">
+        <span>&#9400; OPENSOURCE PROJECT</span>
+      </div>
+    </div>
   );
 };
+
