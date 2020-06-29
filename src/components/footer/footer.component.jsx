@@ -27,3 +27,14 @@ const Footer = () => {
   );
 };
 
+const QuickLinks = () => (
+  <React.Fragment>
+    <Link className="option" to="/">
+      Shop
+    </Link>
+    <Link className="option" to="/checkout">
+      Cart
+    </Link>
+  </React.Fragment>
+);
+
