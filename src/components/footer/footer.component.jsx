@@ -51,7 +51,12 @@ const DeveloperContact = () => (
       <a href="mailto:"></a>
     </address>
     <div className="contact-icons">
-      
+      <a className="icon" href="https://github.com/shubham0794x">
+        <GitHubIcon />
+      </a>
+      <a className="icon" href="https://www.linkedin.com/in//">
+        <LinkedInIcon />
+      </a>
     </div>
   </React.Fragment>
 );
