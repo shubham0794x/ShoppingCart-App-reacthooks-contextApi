@@ -50,7 +50,9 @@ const DeveloperContact = () => (
     <address className="option">
       <a href="mailto:"></a>
     </address>
-   
+    <div className="contact-icons">
+      
+    </div>
   </React.Fragment>
 );
 
