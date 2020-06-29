@@ -10,7 +10,11 @@ const Header = () => {
         <Link className="option" to="/">
           SHOP
         </Link>
-       
+        <span className="option">
+          <CartIcon />
+        </span>
+      </div>
+      {isCartHidden ? null : <CartDropdown />}
     </div>
   );
 };
